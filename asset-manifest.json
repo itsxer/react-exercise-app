@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-exercise-app/static/css/main.95529451.css",
+    "main.js": "/react-exercise-app/static/js/main.dd7c037e.js",
+    "static/js/453.f9c98810.chunk.js": "/react-exercise-app/static/js/453.f9c98810.chunk.js",
+    "static/media/pushups.png": "/react-exercise-app/static/media/pushups.edb4e886262f70977f4c.png",
+    "index.html": "/react-exercise-app/index.html",
+    "main.95529451.css.map": "/react-exercise-app/static/css/main.95529451.css.map",
+    "main.dd7c037e.js.map": "/react-exercise-app/static/js/main.dd7c037e.js.map",
+    "453.f9c98810.chunk.js.map": "/react-exercise-app/static/js/453.f9c98810.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95529451.css",
+    "static/js/main.dd7c037e.js"
+  ]
+}
