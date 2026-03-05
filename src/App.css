@@ -6,18 +6,23 @@
   position: relative;
 }
 
+/* Title */
 .pageTitle {
   text-align: center;
-  font-size: 44px;
-  margin-bottom: 120px;
+  font-size: 40px;
+  margin-bottom: 80px;
+  font-weight: 500;
 }
 
-.menuRow {
-  display: flex;
+/* 2x2 grid so ALL 4 options show */
+.menuGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 260px);
   justify-content: center;
-  gap: 120px;
+  gap: 70px 120px;
 }
 
+/* Menu tile button */
 .menuTile {
   border: none;
   background: transparent;
@@ -25,23 +30,34 @@
   text-align: center;
 }
 
+/* Optional hover feedback */
+.menuTile:hover .menuName,
+.menuTile:hover .menuType {
+  text-decoration: underline;
+}
+
+/* Icons */
 .menuIconImg {
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   object-fit: contain;
   display: block;
   margin: 0 auto;
 }
 
+/* Menu text */
 .menuName {
-  font-size: 42px;
-  margin-top: 20px;
+  font-size: 36px;
+  margin-top: 15px;
+  font-weight: 500;
 }
 
 .menuType {
-  font-size: 36px;
+  font-size: 28px;
+  font-weight: 400;
 }
 
+/* Exercise header */
 .exerciseHeader {
   display: flex;
   align-items: center;
@@ -53,43 +69,57 @@
   width: 50px;
   height: 50px;
   object-fit: contain;
+  display: block;
 }
 
 .headerTitle {
-  font-size: 42px;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 .headerSub {
-  font-weight: normal;
+  font-weight: 400;
 }
 
+/* Center content */
 .contentCenter {
   display: grid;
   justify-items: center;
   margin-top: 60px;
 }
 
+/* Video placeholder */
 .videoBox {
-  width: 360px;
-  height: 220px;
+  width: 350px;
+  height: 200px;
   background: black;
   display: grid;
   place-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .videoText {
   color: white;
-  font-size: 28px;
   text-align: center;
+  font-size: 24px;
+  line-height: 1.15;
 }
 
+/* Back button bottom-left */
 .backButton {
   position: absolute;
-  bottom: 30px;
   left: 30px;
+  bottom: 30px;
   border: none;
   background: transparent;
-  font-size: 24px;
   cursor: pointer;
+  font-size: 22px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.backArrow {
+  font-size: 44px;
+  line-height: 1;
 }
